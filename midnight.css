@@ -283,3 +283,11 @@
 .typeWindows-2-g3UY > div:active::after {
 	transform: scale(1);
 }
+
+div[class^="imageAccessory-"] {
+    left: 0;
+    right: 6px;
+}
+div[class^="drawerSizingWrapper-"] {
+    width: 75% !important;
+}
